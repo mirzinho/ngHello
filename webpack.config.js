@@ -11,7 +11,8 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: "hello",
-    publicPath: "auto"
+    publicPath: "auto",
+    scriptType: 'text/javascript'
   },
   optimization: {
     runtimeChunk: false
